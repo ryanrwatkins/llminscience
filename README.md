@@ -41,3 +41,7 @@ Resource Hub database records, pagination, search behavior, and submission handl
 - Workflow: `.github/workflows/publish.yml` (Quarto 1.10.18).
 
 Edit the `.qmd` source pages and push to `main` to update the site. Only `_site/` is deployed; original archive evidence remains in the repository. GitHub Pages uses the GitHub Actions publishing source. The recovery report describes the historical recovery stage, before publication.
+
+## Editing resources
+
+The Resource Hub is generated from `data/resources.csv`. See `data/README.md` for field definitions, dates, and maintenance. Quarto now requires Python 3.10+ for the pre-render CSV validation/build step. Search and filters work in the browser; CSV changes appear after rebuilding.

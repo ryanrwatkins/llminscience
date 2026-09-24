@@ -7,3 +7,8 @@
 /TASKS.md
 /SCRATCHPAD.md
 /PROBLEMS_TBD.md
+
+/_catalog.html
+__pycache__/
+.pytest_cache/
+.ruff_cache/
