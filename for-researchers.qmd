@@ -1,0 +1,273 @@
+---
+title: "For Researchers"
+---
+
+> Recovered historical content from the Internet Archive. Links and advice reflect the archived site.
+
+In this section we have guidance for researchers who are considering the use of LLMs in their scientific workflows.
+
+- [Publication Checklists](for-researchers.qmd#section-reporting)
+- [Technical Toolkit](for-researchers.qmd#section-technical-toolkit)
+- [Design Considerations](for-researchers.qmd#section-design-considerations)
+- [Development Considerations](for-researchers.qmd#section-development-considerations)
+- [Deployment Considerations](for-researchers.qmd#section-deployment-considerations)
+- [Prompting Considerations](for-researchers.qmd#section-prompting-considerations)
+- [Documenting Considerations](for-researchers.qmd#section-documenting-considerations)
+
+[Archived source](https://web.archive.org/web/20250425055232/https://llminscience.com/for-researchers/)
+
+## Technical Toolkit {#section-technical-toolkit}
+
+As a starting place, here are guides (tutorials, videos, ect.) to help you get started:
+
+#### Beginner Resources
+
+- Getting started:
+
+[YouTube video player](https://www.youtube.com/embed/BEGTuxHGBCw?si=mMsxPdNzbY-Izkob)
+
+#### **Intermediate Resources**
+
+- Setting up local models with accessible tools:
+
+[YouTube video player](https://www.youtube.com/embed/rVyB8IZ4bfI?si=p9AURr6CGs03SY1q)
+
+- [Resources on uing genAI (LLMs) to generate hypotheses](https://github.com/Paureel/LLM-SCI-GEN)
+- Comparing research focused LLM tools for different points in research workflow:
+
+[YouTube video player](https://www.youtube.com/embed/ztXXA7tS1Uw?si=e0dqQcQ8bH1T_gMw)
+
+#### **Advanced Resources**
+
+- [Fine-tuning an LLM (includes fine-tuning vs RAG)](https://www.datacamp.com/tutorial/fine-tuning-large-language-models)
+- Fine-tuning an open source LLM (using Ollama)
+
+[YouTube video player](https://www.youtube.com/embed/pxhkDaKzBaY?si=BmYEOg-7iFzqt7sX)
+
+#### **Resources on genAI in Science Ethics**
+
+- [Ethical consideration when curating content for RAG fine-tuning](https://medium.com/@rwatkins_7167/curating-content-for-course-chatbots-df15ce479a75)
+- [Understanding bias in LLMs](https://www.datacamp.com/blog/understanding-and-mitigating-bias-in-large-language-models-llms)
+- [Bias reduction techniques (in data preparation)](https://www.datacamp.com/code-along/gender-bias-text-analysis-python)
+
+[Recommend Additions/Subtractions/Edits](about.qmd#section-contact-us)
+
+[Archived source](https://web.archive.org/web/20250218181341/https://llminscience.com/for-researchers/technical-toolkit/)
+
+## Design {#section-design-considerations}
+
+As a starting place, here are initial recommendations of questions to be asked when considering the use of an LLM as part of your scientific research workflow.
+
+- Where in your research workflow do you plan to use an LLM (e.g., literature review, data collection, data preparation, data analysis, writing)?
+- Based on the research tasks for the LLM, which LLM (e.g., ChatGPT, BARD, Claude) is most appropriate? What characteristics weigh into this decision?
+- How will the LLM complement and/or supplement other research tasks in workflow?
+- Are you planning to use a website LLM (e.g., ChatGPT) or use an API to connect to the LLM?
+- What [completion parameter](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model)[s](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model) do you plan to manipulate when using the LLM?
+- How will LLM responses be evaluated for accuracy, bias, and other potential limitations?
+- How will you provide for data security and privacy when using the LLM?
+- What methods will you apply to mitigate the risk of inaccuracies, biases, and/or plagiarism in LLM-generated results?
+- Are you planning to supplement the LLM (e.g., using Retrieval Augmented Generation, RAG) or to fine-tune the LLM? If so, what data will you use and how will you [manage](https://osf.io/preprints/osf/g25zs) [the bias being introduced](https://osf.io/preprints/osf/g25zs)?
+- How will you comply with applicable institutional and/or regulatory guidelines for using LLMs in research?
+- Will you [p](https://www.cos.io/initiatives/prereg)[re-register](https://www.cos.io/initiatives/prereg) the study?
+
+Recommend Additions/Subtractions/Edits
+
+[Archived source](https://web.archive.org/web/20250425062124/https://llminscience.com/for-researchers/design-considerations/)
+
+## Development {#section-development-considerations}
+
+As a starting place, here are initial recommendations of questions to be asked when considering the use of an LLM as part of your scientific research workflow.
+
+- What protocols (guidelines) have been developed to ensure systematic use of LLMs?
+- What [completion parameter](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model)[s](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model) (e.g., temperature, presence penalty, frequency penalty, max tokens, logit bias) will be used?
+- Are pre-established decisions related to completion parameters readily available to those prompting the LLM?
+- Will [embeddings](https://python.langchain.com/en/latest/modules/models/text_embedding.html?highlight=embedding) be utilized in the research?
+- What size [chunks](https://python.langchain.com/en/latest/modules/indexes/text_splitters.html?highlight=chunks#text-splitters) will be used in creating embeddings?
+- What size of overlap permitted when creating [chunks](https://python.langchain.com/en/latest/modules/indexes/text_splitters.html?highlight=chunks#text-splitters) provided?
+- What tool(s) will be used for similarity matching (i.e., [vector database](https://python.langchain.com/en/latest/modules/indexes/vectorstores.html)) provided and described (e.g., FAISS)?
+- Will embedding files be publicly available after the research is complete?
+- Will [LLM agent(s)](https://python.langchain.com/en/latest/modules/agents.html) be used in the research?
+- Will any code associated with the use of LLMs documented?
+- Will the code be publicly available ?
+- Will LLM responses be systematically checked for accuracy, bias, and other limitations?
+- What data management systems will put in place to secure the data (inputs and outputs) of the LLMs?
+
+Recommend Additions/Subtractions/Edits
+
+[Archived source](https://web.archive.org/web/20240419112844/https://llminscience.com/for-researchers/development-considerations/)
+
+## Prompting {#section-prompting-considerations}
+
+As a starting place, here are initial recommendations of prompting strategies when using an LLM as part of your scientific research workflow.
+
+#### Go Deeper
+
+- Provide context.
+- Include the “personality” you want AI to play, or have it play three “personalities”.
+- Be clear and specific with what you want in response.
+- Anticipate ambiguity.
+- [Exampl](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-1-Deeper)[e](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-1-Deeper)
+
+#### Broader/Bigger
+
+- Initially ask about the problem you are trying to solve.
+- Take a step back and ask if you are asking the right question (e.g., should I be using JSON or something else for this task?).
+- Turn the task around, and have the LLM ask you questions.
+- [Exampl](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-2-Bigger)[e](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-2-Bigger)
+
+#### Ask for multiple solutions
+
+- Ask for two or three or ten options.
+- Ask it to provide the simplest solution first.
+- [Exampl](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-3-Solutions)[e](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-3-Solutions)
+
+#### Ask for explanation of the reasoning
+
+- Ask for step-by-step instructions.
+- Add that you want comments when providing code.
+- Ask for counter arguments or reasoning.
+- Use techniques (Chain of Thoughts, Tree of Thoughts, Program of Thoughts, etc.)
+- [Exampl](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-4-Explained)[e](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-4-Explained)
+
+#### Templating
+
+- With many LLMs you can provide a template for the LLM to follow in its response (e.g., bullet list or headers in [markdown](https://www.markdownguide.org/)).
+- [Exampl](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-4-Templating)[e](https://github.com/jhelvy/coding-with-ai/blob/main/Prompting-tips-and-examples/Strategy-EX-4-Templating)
+
+Recommend Additions/Subtractions/Edits
+
+[Archived source](https://web.archive.org/web/20250723194108/https://llminscience.com/for-researchers/prompting-considerations/)
+
+## Deployment {#section-deployment-considerations}
+
+As a starting place, here are initial recommendations of questions to be asked when considering the use of an LLM as part of your scientific research workflow.
+
+- When deploying an LLM in your research do you have systems in place for documenting its use?
+- Will students or others also be using LLMs in their contributions, and have you discussed with them the norms/standards for documenting their use?
+- Will only predefined prompts be used, or will impromptu prompts be added? How will those decisions be made and documented?
+- How will data generated by LLMs be labeled, cataloged, stored, and managed?
+
+Recommend Additions/Subtractions/Edits
+
+[Archived source](https://web.archive.org/web/20250322094042/https://llminscience.com/for-researchers/deployment-considerations/)
+
+## Documenting {#section-documenting-considerations}
+
+As a starting place, here are initial recommendations of questions to be asked when considering the use of an LLM as part of your scientific research workflow.
+
+- Have you documented the model, date, and time for each LLM session?
+- Have you documented all of the prompts used in the research?
+- Are you going to make the LLM data (in full) available on an open science service (e.g., OSF, add other data services)?
+- In your writings about the research are you included all the parameters used? If these changed for different prompts, is that documented as well?
+- How will you acknowledge and document the use of LLMs in any subsequent reports or articles?
+- Have you checked professional association guidelines in your discipline for the norms/standards for acknowledging the use of LLMs ?
+
+Recommend Additions/Subtractions/Edits
+
+[Archived source](https://web.archive.org/web/20240419120940/https://llminscience.com/for-researchers/documenting-considerations/)
+
+## Publication Checklists {#section-reporting}
+
+Use the checklists below (depending on your use case) to verify that you are reporting the minimal required information for the transparent and reproducible use of LLMs (or genAI) in your research publications and report.
+
+Recommend Additions/Subtractions/Edits
+
+**Used LLM (or genAI) *Without* Parameter Adjustments**
+
+- Provide name(s) and version(s) of the LLM (genAI) model(s) used.
+  - If multiple models were tested during the research, include these along with a description of their application.
+  - If model version is not available, include dates when used.
+- Describe any custom instructions (e.g., “You are …”).
+- Provide complete list of prompts tested and/or utilized (often as supplemental materials).
+  - Describe prompting techniques tested and/or utilized (e.g., Chain of Thoughts, Tree of Thoughts, Program of Thoughts, etc.).
+  - Describe how outputs were evaluated.
+
+**Used LLM (or genAI) *With* Parameter Adjustments**
+
+- Provide name(s) and version(s) of the LLM (genAI) model(s) used.
+  - If multiple models were tested during the research, include these along with a description of their application.
+- List the [completion parameter](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model)[s](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model) (e.g., temperature, presence penalty, frequency penalty, max tokens, logit bias).
+- Describe any custom instructions (e.g., “You are …”).
+- Provide a complete list of prompts tested and/or utilized (supplemental materials).
+  - Describe prompting techniques tested and/or utilized (e.g., Chain of Thoughts, Tree of Thoughts, Program of Thoughts, etc.).
+  - Describe how outputs were evaluated.
+
+**Used Retrieval Augmented Generation (RAG)**
+
+- Provide name(s) and version(s) of the LLM (genAI) model(s) used.
+  - If multiple models were tested during the research, they should be included along with a description of their application).
+- List the [completion parameter](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model)[s](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model) (e.g., temperature, presence penalty, frequency penalty, max tokens, logit bias).
+- Describe how [embeddings](https://python.langchain.com/en/latest/modules/models/text_embedding.html?highlight=embedding) were created.
+- Provide the size of [chunks](https://python.langchain.com/en/latest/modules/indexes/text_splitters.html?highlight=chunks#text-splitters) used in creating embeddings
+- Provide the size of overlap permitted when creating [chunks](https://python.langchain.com/en/latest/modules/indexes/text_splitters.html?highlight=chunks#text-splitters)
+- Provide and describe the tool(s) (e.g., FAISS) used for similarity matching (i.e., [vector database](https://python.langchain.com/en/latest/modules/indexes/vectorstores.html))
+- Describe the retrieval tools/techniques will be used (e.g., [compression](https://python.langchain.com/docs/how_to/contextual_compression/), [context](https://www.anthropic.com/news/contextual-retrieval), [rerank](https://galileo.ai/blog/mastering-rag-how-to-select-a-reranking-model))
+  - If external service(s) were used for reranking, list those.
+- Describe any custom instructions (e.g., “You are …”).
+- Provide a complete list of prompts tested and/or utilized (supplemental materials).
+  - Describe prompting techniques tested and/or utilized (e.g., Chain of Thoughts, Tree of Thoughts, Program of Thoughts, etc.).
+  - Describe how outputs were evaluated.
+
+**Used** **Parameter-Efficient Fine-Tuning (PEFT) with LoRA or QLoRA** ***(or Similar**)*
+
+- Provide name(s) and version(s) of the LLM (genAI) model(s) used.
+  - If multiple models were tested during the research, include these along with a description of their application.
+- List the [completion parameter](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model)[s](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model) (e.g., temperature, presence penalty, frequency penalty, max tokens, logit bias).
+- If multiple parameter settings were tested during the research, describe these test.
+- Describe the sources of data for PEFT fine-tuning. List separately for the development and evaluation of the updated model(s).
+  - Describe the use of source(s) of data
+  - Describe the use of existing data or collecting new data (if existing data were used, what was rationale)
+  - Describe the use of synthetic data, if applicable
+  - Describe all data preparation (e.g.., cleaning, imputation, transformations, partitions)
+
+- List the [metrics](https://huggingface.co/metrics) used for PEFT evaluation.
+- If weights were quantized (e.g., QLoRA), provide descriptions of tools used and process.
+- List the PEFT hyperparameters tested and/or utilized (e.g., r, target\_modules).
+- If Retrieval Augmented Generation (RAG) was used with the fine-tuned model(s), see RAG checklist above as well.
+- What packages (and versions) were used (e.g., ollama 0.5.7, unsloth 2025.1.6)
+- Describe any custom instructions are described (e.g., “You are …”).
+- Provide a complete list of prompts tested and/or utilized (supplemental materials).
+  - Describe the prompting techniques tested and/or utilized (e.g., Chain of Thoughts, Tree of Thoughts, Program of Thoughts, etc.).
+  - Describe how outputs were evaluated.
+
+**Used Full-Parameter Fine-Tuning**
+
+- Provide name(s) and version(s) of the LLM (genAI) model(s) used.
+  - If multiple models were tested during the research, include these along with a description of their application.
+- List the [completion parameter](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model)[s](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model) (e.g., temperature, presence penalty, frequency penalty, max tokens, logit bias).
+- If multiple parameter settings were tested during the research, describe these test.
+- Describe the sources of data for fine-tuning. List separately for the development and evaluation of the updated model(s).
+  - Describe the use of source(s) of data
+  - Describe the use of existing data or collecting new data (if existing data were used, what was rationale)
+  - Describe the use of synthetic data, if applicable
+  - Describe all data preparation (e.g.., cleaning, imputation, transformations, partitions)
+- Describe the approach to fine tuning described (e.g., Supervised Fine-Tuning (SFT), Reinforcement Learning from Human Feedback (RLHF)
+- List the tools used for full parameter fine tuning (e.g., torchtune).
+- If Retrieval Augmented Generation (RAG) was used with the fine-tuned model(s), see RAG checklist above as well.
+- Describe any custom instructions are described (e.g., “You are …”).
+- Provide a complete list of prompts tested and/or utilized (supplemental materials).
+  - Describe the prompting techniques tested and/or utilized (e.g., Chain of Thoughts, Tree of Thoughts, Program of Thoughts, etc.).
+  - Describe how outputs were evaluated.
+
+**Used Multi-Agent System(s)**
+
+- Provide name(s) and version(s) of the LLM (genAI) model(s) used.
+- Provide the name(s) and version(s) of agent controller (e.g., [AutoGen](https://microsoft.github.io/autogen/)) used.
+  - Describe the conversation pattern selected for use by agents.
+  - Describe mechanisms for managing and coordinating the agents of agents.
+- Provide details on the parameter adjustments for each agent.
+- If Retrieval Augmented Generation ([RAG](for-researchers.qmd#section-reporting)) was used for one or more agents, describe those processes as outlined above.
+- If fine-tuning ([PEFT](for-researchers.qmd#section-reporting) and/or [Full](for-researchers.qmd#section-reporting)) was used for one or more agents, describe those processes as outlined above.
+- List the [completion parameter](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model)[s](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model) (e.g., temperature, presence penalty, frequency penalty, max tokens, logit bias), including if they are different for individual agents.
+- Describe any custom instructions (e.g., “You are …”).
+- Provide a complete list of prompts tested and/or utilized (supplemental materials).
+  - Describe prompting techniques tested and/or utilized (e.g., Chain of Thoughts, Tree of Thoughts, Program of Thoughts, etc.).
+  - Describe how outputs were evaluated.
+
+---
+
+\* *How to cite*: Watkins, R. (2024, September 25). *LLM in Science Publication Checklists*. LLMs in Scientific Research Workflows. https://llminscience.com/for-researchers/reporting/
+
+\*\* The checklists above are based in part on the [TRIPOD+AI](https://www.bmj.com/content/385/bmj-2023-078378) [checklist](https://www.bmj.com/content/bmj/suppl/2024/04/18/bmj-2023-078378.DC6/colg078378.wt1.pdf). Additional reporting standards can be found in the [EQUATOR database](http://www.equator-network.org/).
+
+[Archived source](http://web.archive.org/web/20250322093220/https://llminscience.com/for-researchers/reporting/)

@@ -1,0 +1,15 @@
+Reviewers of manuscripts by researchers who have used LLMs in their workflows should keep the following considerations in mind:
+
+- **Validity of LLM-generated results:** Reviewers should critically evaluate the validity of the LLM-generated results. They should assess the reliability and accuracy of the generated content by cross-verifying it with established scientific literature, experimental data, or other reliable sources. Reviewers should also ensure that the LLM is appropriately trained and fine-tuned for the specific research domain and that the generated results align with the research objectives and methodology.
+- **Ethical considerations:** Reviewers should assess the ethical considerations related to the use of LLMs in the research. This includes ensuring proper data privacy and protection, addressing potential biases in LLM-generated results, disclosing any conflicts of interest related to the use of LLMs, and complying with institutional or regulatory guidelines for the responsible use of AI technologies in research.
+- **Interpretation of LLM-generated results:** Reviewers should carefully interpret the LLM-generated results and consider the limitations of LLMs. They should assess the potential biases, limitations in generalization, and other known limitations of LLMs, and provide feedback on how these limitations may impact the validity and interpretation of the research findings.
+- **Proper citation and credit:** Reviewers should verify that the authors have properly cited and credited the use of LLMs in their research. This includes acknowledging the specific LLM used, providing appropriate citations for relevant literature on LLMs, and following the citation and credit guidelines of the research field or publication.
+- **Reproducibility and transparency:** Reviewers should assess the reproducibility and transparency of the LLM-related methods used in the research. This includes evaluating the clarity of the description of prompts used, LLM training, fine-tuning, and other related details, and assessing whether the authors have provided adequate information for other researchers to reproduce the results using LLMs.
+- **Overall impact and contribution:** Reviewers should evaluate the overall impact and contribution of the use of LLMs in the research. This includes assessing whether the use of LLMs adds value to the research, enhances the methodology, and improves the quality or significance of the findings.
+- **Future directions and recommendations:** Reviewers can provide constructive feedback on the use of LLMs in the research, including suggestions for further improvement, future directions, or recommendations for addressing potential limitations or concerns related to the use of LLMs.
+
+Reviewers who are considering using an LLM to complement their work in the review process should first check with the journal editors to verify the appropriate use LLMs during the review process. Many journals have policies restricting LLM use by peer reviewers.
+
+Resources on LLM use by peer reviewers:
+
+<https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-023-00133-5>

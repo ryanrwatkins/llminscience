@@ -1,0 +1,146 @@
+---
+title: "For Reviewers"
+---
+
+> Recovered historical content from the Internet Archive. Links and advice reflect the archived site.
+
+In this sections are guides for how academic peer-reviewers (when presented with an article that uses LLMs in the workflow) can assess the appropriateness and thoroughness of the LLM methods applied.
+
+- [Introduction For Reviewers](for-reviewers.qmd#section-introduction-for-reviewers)
+- [Context](for-reviewers.qmd#section-context)
+- [Ethics](for-reviewers.qmd#section-ethics)
+- [Embeddings](for-reviewers.qmd#section-embeddings)
+- [Prompts](for-reviewers.qmd#section-prompts)
+- [Fine Tuning](for-reviewers.qmd#section-language-models)
+- [LLM Agents](for-reviewers.qmd#section-llm-agents)
+
+[Archived source](http://web.archive.org/web/20250425062745/https://llminscience.com/for-reviewers/)
+
+## Introduction {#section-introduction-for-reviewers}
+
+Reviewers of manuscripts by researchers who have used LLMs in their workflows should keep the following considerations in mind:
+
+- **Validity of LLM-generated results:** Reviewers should critically evaluate the validity of the LLM-generated results. They should assess the reliability and accuracy of the generated content by cross-verifying it with established scientific literature, experimental data, or other reliable sources. Reviewers should also ensure that the LLM is appropriately trained and fine-tuned for the specific research domain and that the generated results align with the research objectives and methodology.
+- **Ethical considerations:** Reviewers should assess the ethical considerations related to the use of LLMs in the research. This includes ensuring proper data privacy and protection, addressing potential biases in LLM-generated results, disclosing any conflicts of interest related to the use of LLMs, and complying with institutional or regulatory guidelines for the responsible use of AI technologies in research.
+- **Interpretation of LLM-generated results:** Reviewers should carefully interpret the LLM-generated results and consider the limitations of LLMs. They should assess the potential biases, limitations in generalization, and other known limitations of LLMs, and provide feedback on how these limitations may impact the validity and interpretation of the research findings.
+- **Proper citation and credit:** Reviewers should verify that the authors have properly cited and credited the use of LLMs in their research. This includes acknowledging the specific LLM used, providing appropriate citations for relevant literature on LLMs, and following the citation and credit guidelines of the research field or publication.
+- **Reproducibility and transparency:** Reviewers should assess the reproducibility and transparency of the LLM-related methods used in the research. This includes evaluating the clarity of the description of prompts used, LLM training, fine-tuning, and other related details, and assessing whether the authors have provided adequate information for other researchers to reproduce the results using LLMs.
+- **Overall impact and contribution:** Reviewers should evaluate the overall impact and contribution of the use of LLMs in the research. This includes assessing whether the use of LLMs adds value to the research, enhances the methodology, and improves the quality or significance of the findings.
+- **Future directions and recommendations:** Reviewers can provide constructive feedback on the use of LLMs in the research, including suggestions for further improvement, future directions, or recommendations for addressing potential limitations or concerns related to the use of LLMs.
+
+Reviewers who are considering using an LLM to complement their work in the review process should first check with the journal editors to verify the appropriate use LLMs during the review process. Many journals have policies restricting LLM use by peer reviewers.
+
+Resources on LLM use by peer reviewers:
+
+<https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-023-00133-5>
+
+[Archived source](http://web.archive.org/web/20240521204009/https://llminscience.com/for-reviewers/introduction-for-reviewers/)
+
+## Context {#section-context}
+
+As a starting place, here are initial recommendations of questions to be asked when reviewing research in which an LLM was used as part of their scientific research workflow.
+
+- Was the study [pre-registered](https://www.cos.io/initiatives/prereg)?
+- Was LLM used to complement other research methods, or as the sole method?
+- Were the research questions and data appropriate for LLM methods?
+
+Recommend Additions/Subtractions/Edits
+Citable Article on LLM Norms and Review Criteria
+
+[Archived source](http://web.archive.org/web/20250218191544/https://llminscience.com/for-reviewers/context/)
+
+## Prompts {#section-prompts}
+
+As a starting place, here are initial recommendations of questions to be asked when reviewing research in which an LLM was used as part of their scientific research workflow.
+
+- Was an initial context or ‘seed’ used, and if so is it available?
+- Was the [prompt](https://python.langchain.com/en/latest/modules/prompts.html) history empty when initial prompts were queried?
+- Were multiple prompts created, tested, or used (i.e., [prompt engineering](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api))?
+- Was a data file(s) uploaded, and is a exact copy of that file available?
+- Is the complete history of the prompting available?
+- Are the dates/times of the prompts included with the history?
+- Were [completion parameters](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model) (e.g., temperature, presence penalty, frequency penalty, max tokens, logit bias) used and are those provided? [typically available through API only]
+- Did completion parameters vary among prompts, and if so are those provided for each prompt?
+- Were multiple combinations of [completion parameters](https://platform.openai.com/docs/api-reference/chat/create#chat/create-model) tested?
+- Were quality review checks performed on LLM-generated results?
+- Did the researcher(s) validate the LLM-generated results through experimentation or simulation?
+- Is the code available?
+
+Recommend Additions/Subtractions/Edits
+Citable Article on LLM Norms and Review Criteria
+
+[Archived source](http://web.archive.org/web/20240419121549/https://llminscience.com/for-reviewers/prompts/)
+
+## Embeddings {#section-embeddings}
+
+As a starting place, here are initial recommendations of questions to be asked when reviewing research in which an LLM was used as part of their scientific research workflow.
+
+- Were [embedding(s)](https://python.langchain.com/en/latest/modules/models/text_embedding.html?highlight=embedding) (i.e., [RA](https://aws.amazon.com/what-is/retrieval-augmented-generation/)[G](https://aws.amazon.com/what-is/retrieval-augmented-generation/)) used in the research?
+- Is the tool used to create the [embedding](https://python.langchain.com/en/latest/modules/models/text_embedding.html?highlight=embedding) model provided and described?
+- Were multiple [embeddings](https://python.langchain.com/en/latest/modules/models/text_embedding.html?highlight=embedding) created, tested, or used (i.e., chained)?
+- Is the size of [chunks](https://python.langchain.com/en/latest/modules/indexes/text_splitters.html?highlight=chunks#text-splitters) used in preparing the data provided?
+- Were different sizes of [chunks](https://python.langchain.com/en/latest/modules/indexes/text_splitters.html?highlight=chunks#text-splitters) tested for influence on LLM performance?
+- Is the size of overlap permitted when creating [chunks](https://python.langchain.com/en/latest/modules/indexes/text_splitters.html?highlight=chunks#text-splitters) provided?
+- Is the tool used for similarity matching (i.e., [vector database](https://python.langchain.com/en/latest/modules/indexes/vectorstores.html)) provided and described (e.g., FAISS)?
+- Is the code available?
+
+\* [Fine Tuning vs. Embeddin](https://www.linkedin.com/pulse/prompt-engineering-art-nudging-conversations-llm-fetahu-haxhiaj-msc/)[g](https://www.linkedin.com/pulse/prompt-engineering-art-nudging-conversations-llm-fetahu-haxhiaj-msc/)
+
+Recommend Additions/Subtractions/Edits
+Citable Article on LLM Norms and Review Criteria
+
+[Archived source](http://web.archive.org/web/20240419125235/https://llminscience.com/for-reviewers/embeddings/)
+
+## Fine Tuning {#section-language-models}
+
+As a starting place, here are initial recommendations of questions to be asked when reviewing research in which an LLM was used as part of their scientific research workflow.
+
+- Which [language model](https://python.langchain.com/en/latest/modules/models/llms/integrations.html) was [fine tuned](https://bdtechtalks.com/2023/07/10/llm-fine-tuning/#:~:text=In%20such%20situations%2C%20one%20of,that%20should%20come%20to%20mind.) (e.g., OpenAI’s GPT-3.5 model)?
+- Which (if any) packages were used (e.g., [DSPy](https://github.com/stanfordnlp/dspy), [RAG](https://github.com/explodinggradients/ragas)[AS](https://github.com/explodinggradients/ragas), etc.)?
+- Were multiple [language models](https://python.langchain.com/en/latest/modules/models/llms/integrations.html) tested for performance before selecting?
+- What tool(s) were used for fine tuning to model (e.g., [LoR](https://bdtechtalks.com/2023/05/22/what-is-lora/)[A](https://bdtechtalks.com/2023/05/22/what-is-lora/), [PEFT](https://www.mercity.ai/blog-post/fine-tuning-llms-using-peft-and-lora#what-is-peft), [OpenAI tool](https://platform.openai.com/docs/guides/fine-tuning)[s](https://platform.openai.com/docs/guides/fine-tuning))?
+- Which data were used for [fine tunin](https://platform.openai.com/docs/guides/fine-tuning)[g](https://platform.openai.com/docs/guides/fine-tuning)?
+- Was splitting (training/testing) used, and if so what proportions (e.g., 80/20)?
+- Which (if any) [evaluation libraries](https://github.com/openai/evals) were used to assess the fine tuned model?
+- Did the researcher(s) evaluate the LLM’s performance against other benchmarks or standards?
+- Is the code available?
+
+\* *Note that at this time there are no standards for setting completion parameters (such as temperature). As standards come available we will post updates.*
+
+\*\* [Fine Tuning vs. Embeddin](https://www.linkedin.com/pulse/prompt-engineering-art-nudging-conversations-llm-fetahu-haxhiaj-msc/)[g](https://www.linkedin.com/pulse/prompt-engineering-art-nudging-conversations-llm-fetahu-haxhiaj-msc/)
+
+Recommend Additions/Subtractions/Edits
+Citable Article on LLM Norms and Review Criteria
+
+[Archived source](http://web.archive.org/web/20250322093008/https://llminscience.com/for-reviewers/language-models/)
+
+## Agents {#section-llm-agents}
+
+As a starting place, here are initial recommendations of questions to be asked when reviewing research in which an LLM was used as part of their scientific research workflow.
+
+- Were [LLM agent(s)](https://python.langchain.com/en/latest/modules/agents.html) used in the research?
+- Were the intermediate steps, and sequence, of the [LLM agent(s)](https://python.langchain.com/en/latest/modules/agents.html) described?
+- Is the code for creating the [LLM agent(s)](https://python.langchain.com/en/latest/modules/agents.html) available?
+
+Recommend Additions/Subtractions/Edits
+Citable Article on LLM Norms and Review Criteria
+
+[Archived source](http://web.archive.org/web/20250322084907/https://llminscience.com/for-reviewers/llm-agents/)
+
+## Ethics {#section-ethics}
+
+As a starting place, here are initial recommendations of questions to be asked when reviewing research in which an LLM was used as part of their scientific research workflow.
+
+- Were training data for [embedding(s)](https://python.langchain.com/en/latest/modules/models/text_embedding.html?highlight=embedding) acquired in a transparent and ethical manner?
+- Were proper steps for data privacy and protections taken?
+- Did the research methods mitigate the risk of inaccuracies, biases, and/or plagiarism in LLM-generated results?
+- Did the researcher(s) disclose any conflicts of interest related to the use of LLMs?
+- Did the researcher(s) comply with applicable institutional and/or regulatory guidelines?
+- Were proper citations and credit given?
+- To the extent possible are the LLM methods done in a manner that is reproducible and transparent?
+- Were LLM outputs described in a non-anthropomorphic manner?
+
+Recommend Additions/Subtractions/Edits
+Citable Article on LLM Norms and Review Criteria
+
+[Archived source](http://web.archive.org/web/20250322095816/https://llminscience.com/for-reviewers/ethics/)

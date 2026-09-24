@@ -1,0 +1,352 @@
+{
+  "requested_capture": "20250321002447",
+  "pages": [
+    {
+      "title": "LLMs in Science",
+      "url": "https://llminscience.com/",
+      "anchor": "section-home",
+      "section": "Home",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250321002447id_/https://llminscience.com/",
+      "raw_html": "archive/html/home.html",
+      "words": 307
+    },
+    {
+      "title": "Overview",
+      "url": "https://llminscience.com/overview/",
+      "anchor": "section-overview",
+      "section": "Overview",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250322092545id_/https://llminscience.com/overview/",
+      "raw_html": "archive/html/overview.html",
+      "words": 8
+    },
+    {
+      "title": "LLMs & genAI",
+      "url": "https://llminscience.com/overview/llms/",
+      "anchor": "section-llms",
+      "section": "Overview",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250218180925id_/https://llminscience.com/overview/llms/",
+      "raw_html": "archive/html/overview__llms.html",
+      "words": 116
+    },
+    {
+      "title": "Potential Uses",
+      "url": "https://llminscience.com/overview/potential-uses-of-llms/",
+      "anchor": "section-potential-uses-of-llms",
+      "section": "Overview",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250425053629id_/https://llminscience.com/overview/potential-uses-of-llms/",
+      "raw_html": "archive/html/overview__potential-uses-of-llms.html",
+      "words": 139
+    },
+    {
+      "title": "FAQ",
+      "url": "https://llminscience.com/overview/faq/",
+      "anchor": "section-faq",
+      "section": "Overview",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250723194245id_/https://llminscience.com/overview/faq/",
+      "raw_html": "archive/html/overview__faq.html",
+      "words": 430
+    },
+    {
+      "title": "Resource Hub",
+      "url": "https://llminscience.com/resources/",
+      "anchor": "section-resources",
+      "section": "Resource Hub",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250218193116id_/https://llminscience.com/resources/",
+      "raw_html": "archive/html/resources.html",
+      "words": 25
+    },
+    {
+      "title": "Add a Resource",
+      "url": "https://llminscience.com/resources/add-a-resource/",
+      "anchor": "section-add-a-resource",
+      "section": "Resource Hub",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250425044428id_/https://llminscience.com/resources/add-a-resource/",
+      "raw_html": "archive/html/resources__add-a-resource.html",
+      "words": 11
+    },
+    {
+      "title": "Search Resources",
+      "url": "https://llminscience.com/resources/search/",
+      "anchor": "section-search",
+      "section": "Resource Hub",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20240521195351id_/https://llminscience.com/resources/search/",
+      "raw_html": "archive/html/resources__search.html",
+      "words": 28
+    },
+    {
+      "title": "Research Articles",
+      "url": "https://llminscience.com/resources/articles/",
+      "anchor": "section-articles",
+      "section": "Resource Hub",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20240419124855id_/https://llminscience.com/resources/articles/",
+      "raw_html": "archive/html/resources__articles.html",
+      "words": 2027
+    },
+    {
+      "title": "LLM Documentation",
+      "url": "https://llminscience.com/resources/useful-llm-documentation/",
+      "anchor": "section-useful-llm-documentation",
+      "section": "Resource Hub",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20240419124248id_/https://llminscience.com/resources/useful-llm-documentation/",
+      "raw_html": "archive/html/resources__useful-llm-documentation.html",
+      "words": 232
+    },
+    {
+      "title": "Tutorials on Using LLMs",
+      "url": "https://llminscience.com/resources/tutorials/",
+      "anchor": "section-tutorials",
+      "section": "Resource Hub",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20240419124042id_/https://llminscience.com/resources/tutorials/",
+      "raw_html": "archive/html/resources__tutorials.html",
+      "words": 118
+    },
+    {
+      "title": "Discussion Articles",
+      "url": "https://llminscience.com/resources/discussion-articles/",
+      "anchor": "section-discussion-articles",
+      "section": "Resource Hub",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250322091614id_/https://llminscience.com/resources/discussion-articles/",
+      "raw_html": "archive/html/resources__discussion-articles.html",
+      "words": 1898
+    },
+    {
+      "title": "Use Case Examples",
+      "url": "https://llminscience.com/resources/use-case-examples/",
+      "anchor": "section-use-case-examples",
+      "section": "Resource Hub",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250218201227id_/https://llminscience.com/resources/use-case-examples/",
+      "raw_html": "archive/html/resources__use-case-examples.html",
+      "words": 1654
+    },
+    {
+      "title": "For Researchers",
+      "url": "https://llminscience.com/for-researchers/",
+      "anchor": "section-for-researchers",
+      "section": "For Researchers",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250425055232id_/https://llminscience.com/for-researchers/",
+      "raw_html": "archive/html/for-researchers.html",
+      "words": 33
+    },
+    {
+      "title": "Technical Toolkit",
+      "url": "https://llminscience.com/for-researchers/technical-toolkit/",
+      "anchor": "section-technical-toolkit",
+      "section": "For Researchers",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250218181341id_/https://llminscience.com/for-researchers/technical-toolkit/",
+      "raw_html": "archive/html/for-researchers__technical-toolkit.html",
+      "words": 101
+    },
+    {
+      "title": "Design",
+      "url": "https://llminscience.com/for-researchers/design-considerations/",
+      "anchor": "section-design-considerations",
+      "section": "For Researchers",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250425062124id_/https://llminscience.com/for-researchers/design-considerations/",
+      "raw_html": "archive/html/for-researchers__design-considerations.html",
+      "words": 217
+    },
+    {
+      "title": "Development",
+      "url": "https://llminscience.com/for-researchers/development-considerations/",
+      "anchor": "section-development-considerations",
+      "section": "For Researchers",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20240419112844id_/https://llminscience.com/for-researchers/development-considerations/",
+      "raw_html": "archive/html/for-researchers__development-considerations.html",
+      "words": 180
+    },
+    {
+      "title": "Prompting",
+      "url": "https://llminscience.com/for-researchers/prompting-considerations/",
+      "anchor": "section-prompting-considerations",
+      "section": "For Researchers",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250723194108id_/https://llminscience.com/for-researchers/prompting-considerations/",
+      "raw_html": "archive/html/for-researchers__prompting-considerations.html",
+      "words": 192
+    },
+    {
+      "title": "Deployment",
+      "url": "https://llminscience.com/for-researchers/deployment-considerations/",
+      "anchor": "section-deployment-considerations",
+      "section": "For Researchers",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20250322094042id_/https://llminscience.com/for-researchers/deployment-considerations/",
+      "raw_html": "archive/html/for-researchers__deployment-considerations.html",
+      "words": 101
+    },
+    {
+      "title": "Documenting",
+      "url": "https://llminscience.com/for-researchers/documenting-considerations/",
+      "anchor": "section-documenting-considerations",
+      "section": "For Researchers",
+      "status": "recovered",
+      "capture_url": "https://web.archive.org/web/20240419120940id_/https://llminscience.com/for-researchers/documenting-considerations/",
+      "raw_html": "archive/html/for-researchers__documenting-considerations.html",
+      "words": 133
+    },
+    {
+      "title": "Publication Checklists",
+      "url": "https://llminscience.com/for-researchers/reporting/",
+      "anchor": "section-reporting",
+      "section": "For Researchers",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20250322093220id_/https://llminscience.com/for-researchers/reporting/",
+      "raw_html": "archive/html/for-researchers__reporting.html",
+      "words": 1001
+    },
+    {
+      "title": "For Reviewers",
+      "url": "https://llminscience.com/for-reviewers/",
+      "anchor": "section-for-reviewers",
+      "section": "For Reviewers",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20250425062745id_/https://llminscience.com/for-reviewers/",
+      "raw_html": "archive/html/for-reviewers.html",
+      "words": 42
+    },
+    {
+      "title": "Introduction",
+      "url": "https://llminscience.com/for-reviewers/introduction-for-reviewers/",
+      "anchor": "section-introduction-for-reviewers",
+      "section": "For Reviewers",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20240521204009id_/https://llminscience.com/for-reviewers/introduction-for-reviewers/",
+      "raw_html": "archive/html/for-reviewers__introduction-for-reviewers.html",
+      "words": 430
+    },
+    {
+      "title": "Context",
+      "url": "https://llminscience.com/for-reviewers/context/",
+      "anchor": "section-context",
+      "section": "For Reviewers",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20250218191544id_/https://llminscience.com/for-reviewers/context/",
+      "raw_html": "archive/html/for-reviewers__context.html",
+      "words": 67
+    },
+    {
+      "title": "Prompts",
+      "url": "https://llminscience.com/for-reviewers/prompts/",
+      "anchor": "section-prompts",
+      "section": "For Reviewers",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20240419121549id_/https://llminscience.com/for-reviewers/prompts/",
+      "raw_html": "archive/html/for-reviewers__prompts.html",
+      "words": 173
+    },
+    {
+      "title": "Embeddings",
+      "url": "https://llminscience.com/for-reviewers/embeddings/",
+      "anchor": "section-embeddings",
+      "section": "For Reviewers",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20240419125235id_/https://llminscience.com/for-reviewers/embeddings/",
+      "raw_html": "archive/html/for-reviewers__embeddings.html",
+      "words": 128
+    },
+    {
+      "title": "Fine Tuning",
+      "url": "https://llminscience.com/for-reviewers/language-models/",
+      "anchor": "section-language-models",
+      "section": "For Reviewers",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20250322093008id_/https://llminscience.com/for-reviewers/language-models/",
+      "raw_html": "archive/html/for-reviewers__language-models.html",
+      "words": 170
+    },
+    {
+      "title": "Agents",
+      "url": "https://llminscience.com/for-reviewers/llm-agents/",
+      "anchor": "section-llm-agents",
+      "section": "For Reviewers",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20250322084907id_/https://llminscience.com/for-reviewers/llm-agents/",
+      "raw_html": "archive/html/for-reviewers__llm-agents.html",
+      "words": 66
+    },
+    {
+      "title": "Ethics",
+      "url": "https://llminscience.com/for-reviewers/ethics/",
+      "anchor": "section-ethics",
+      "section": "For Reviewers",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20250322095816id_/https://llminscience.com/for-reviewers/ethics/",
+      "raw_html": "archive/html/for-reviewers__ethics.html",
+      "words": 130
+    },
+    {
+      "title": "About",
+      "url": "https://llminscience.com/about/",
+      "anchor": "section-about",
+      "section": "About",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20250723194311id_/https://llminscience.com/about/",
+      "raw_html": "archive/html/about.html",
+      "words": 5
+    },
+    {
+      "title": "Who We Are",
+      "url": "https://llminscience.com/about/who-we-are/",
+      "anchor": "section-who-we-are",
+      "section": "About",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20250322100026id_/https://llminscience.com/about/who-we-are/",
+      "raw_html": "archive/html/about__who-we-are.html",
+      "words": 80
+    },
+    {
+      "title": "Contact Us",
+      "url": "https://llminscience.com/about/contact-us/",
+      "anchor": "section-contact-us",
+      "section": "About",
+      "status": "recovered",
+      "capture_url": "http://web.archive.org/web/20250723194417id_/https://llminscience.com/about/contact-us/",
+      "raw_html": "archive/html/about__contact-us.html",
+      "words": 20
+    }
+  ],
+  "assets": {
+    "https://llminscience.com/wp-content/uploads/2024/09/make-it-norm-green-1024x559.png": {
+      "status": "recovered",
+      "path": "assets/14dc09254e-make-it-norm-green-1024x559.png",
+      "requested_archive_url": "https://web.archive.org/web/20250321002447id_/https://llminscience.com/wp-content/uploads/2024/09/make-it-norm-green-1024x559.png"
+    },
+    "https://llminscience.com/wp-content/uploads/2023/04/huggingface.png": {
+      "status": "recovered",
+      "path": "assets/5142c395e4-huggingface.png",
+      "requested_archive_url": "https://web.archive.org/web/20250321002447id_/https://llminscience.com/wp-content/uploads/2023/04/huggingface.png"
+    },
+    "https://llminscience.com/wp-content/uploads/2023/04/github.png": {
+      "status": "recovered",
+      "path": "assets/3e274d1b99-github.png",
+      "requested_archive_url": "https://web.archive.org/web/20250321002447id_/https://llminscience.com/wp-content/uploads/2023/04/github.png"
+    },
+    "https://llminscience.com/wp-content/uploads/2023/04/tutorial_logo_1.png": {
+      "status": "recovered",
+      "path": "assets/01cd8e3d0f-tutorial_logo_1.png",
+      "requested_archive_url": "https://web.archive.org/web/20250321002447id_/https://llminscience.com/wp-content/uploads/2023/04/tutorial_logo_1.png"
+    },
+    "https://llminscience.com/wp-content/uploads/2023/04/scipods.png": {
+      "status": "recovered",
+      "path": "assets/3ad3a65e38-scipods.png",
+      "requested_archive_url": "https://web.archive.org/web/20250321002447id_/https://llminscience.com/wp-content/uploads/2023/04/scipods.png"
+    }
+  }
+}

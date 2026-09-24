@@ -1,0 +1,102 @@
+---
+title: "Overview"
+---
+
+> Recovered historical content from the Internet Archive. Links and advice reflect the archived site.
+
+- [LLMs & genAI](overview.qmd#section-llms)
+- [Potential Uses of LLMs](overview.qmd#section-potential-uses-of-llms)
+- [FAQ](overview.qmd#section-faq)
+
+[Archived source](https://web.archive.org/web/20250322092545/https://llminscience.com/overview/)
+
+## LLMs & genAI {#section-llms}
+
+LLMs stand for Large Language Models. They are a type of generative artificial intelligence (genAI) model that uses deep learning techniques to process and generate human-like text. LLMs are trained on massive amounts of data, such as text from the internet or other large text corpora, and can learn to understand and generate text in a wide range of styles and domains.
+
+LLMs are capable of various natural language processing (NLP) tasks, including language generation, text completion, text classification, sentiment analysis, and more. They can be used in a wide range of applications, including scientific research, content generation, language translation, question answering, and chatbots, among others.
+
+Resources for staying current on advancement in LLMs include:
+
+<https://github.com/Hannibal046/Awesome-LLM>
+
+[Archived source](https://web.archive.org/web/20250218180925/https://llminscience.com/overview/llms/)
+
+## Potential Uses {#section-potential-uses-of-llms}
+
+This is a running list of potential uses for LLMs as instruments in scientific research workflows. All of these have been not been done as of yet, but many have and others have been preposed.
+
+**Ideation**
+
+- Brainstorming
+- Offering counter arguments
+- Evaluating ideas
+
+**Background Research**
+
+- Summarizing articles
+- Translating articles
+- Explaining concepts
+- Connecting article concepts
+- Creating mindmaps
+
+**Coding**
+
+- Writing code
+- Optimizing code
+- Explaining code
+- Translating code between languages
+- Debugging code
+
+**Data Preparation and Analysis**
+
+- Extracting data from text
+- Reformatting data
+- Classifying and scoring text
+- Extracting sentiment
+- Simulating human subjects
+- Fuzzy joining of data sets
+- Create synthetic/dummy data
+- Setting up models (in LaTeX)
+- Writing data dictionaries
+- Qualitative coding of data
+- Putting data into Pandas dataframe
+
+**Writing**
+
+- Editing for grammar, vocabulary, clarity
+- Generator match catchy titles
+- Synthesizing wordy text
+- Formatting references
+- Moving to LaTeX or Markdown
+
+Recommend Additions/Subtractions/Edits
+
+Based in part on: <https://www.nber.org/papers/w30957>
+
+[Archived source](https://web.archive.org/web/20250425053629/https://llminscience.com/overview/potential-uses-of-llms/)
+
+## FAQ {#section-faq}
+
+**Q: What is the benefit of using LLMs in scientific research?**A: LLMs can provide a wide range of benefits in scientific research. They can assist in generating hypotheses, analyzing data, summarizing research articles, and aiding in literature review. LLMs can also help with natural language processing tasks, such as text classification, sentiment analysis, and entity recognition, which can be valuable for scientific research in fields like biology, chemistry, physics, and medicine.
+
+**Q: How do I train and fine-tune an LLM for my specific scientific research domain?**A: Training and fine-tuning an LLM for a specific scientific research domain involves several steps. First, you need to gather a large dataset of relevant scientific texts from your domain. Then, you can use this dataset to train the LLM using a language modeling framework, such as GPT-3.5. After the initial training, you can fine-tune the model using a smaller, domain-specific dataset to further customize it for your research domain. Fine-tuning helps the LLM to learn the specific language, terminology, and context of your scientific domain.
+
+**Q: How can I ensure the reliability and accuracy of LLM-generated results in my research?**A: While LLMs can be powerful tools, it’s important to exercise caution and verify the reliability and accuracy of their generated results. Here are a few steps you can take:
+
+- Cross-verify the LLM-generated results with established scientific literature and experimental data.
+- Validate the LLM-generated results through experimentation or simulation.
+- Evaluate the LLM’s performance using benchmark datasets and metrics.
+- Consider the limitations of LLMs, such as potential biases, and interpret the results with critical thinking.
+
+**Q: What are the ethical considerations when using LLMs in scientific research?**A: Ethical considerations when using LLMs in scientific research include:
+
+- Ensuring data privacy and protection, especially when using sensitive or confidential data.
+- Being transparent about the use of LLMs in research and disclosing any potential conflicts of interest.
+- Addressing issues of bias and fairness in LLM-generated results.
+- Avoiding plagiarism by properly citing the use of LLMs in research publications.
+- Following institutional or regulatory guidelines for the use of LLMs in research.
+
+**Q: Can I share or distribute LLM-generated content in my research publications?**A: It is important to be mindful of the terms and conditions of the specific LLM you are using, as some models may have restrictions on sharing or distributing content. Additionally, when using LLM-generated content in research publications, it is important to give proper credit and citation to the model used. Be sure to follow the guidelines and regulations of your institution or publisher regarding the use of LLM-generated content in research publications.
+
+[Archived source](https://web.archive.org/web/20250723194245/https://llminscience.com/overview/faq/)

@@ -1,0 +1,13 @@
+### [Ryan Watkins](https://ryanrwatkins.com)
+
+Ryan is a Professor and Program Director of [Educational Technology Leadership](https://gsehd.gwu.edu/masters-edu-tech-leadership) (MA), and faculty lead for the [Human-Technology Collaboration](https://gsehd.gwu.edu/programs/phd-human-technology-collaboration) (PhD concentration) at [George Washington University](https://gwu.edu).
+
+[![HuggingFace](assets/5142c395e4-huggingface.png)](https://huggingface.co/ryanrwatkins) [![GitHub](assets/3e274d1b99-github.png)](https://github.com/ryanrwatkins?tab=repositories) [![Code2Learn](assets/01cd8e3d0f-tutorial_logo_1.png)](https://tutorials.weshareresearch.com/en/) [![SciencePods](assets/3ad3a65e38-scipods.png)](https://sciencepods.com)
+
+---
+
+### [John Helveston](https://www.jhelvy.com/)
+
+John is a researcher, engineer, choice modeler,  developer, musician, swing dancer, and an Assistant Professor at [George Washington University](https://gwu.edu) in the [Department of Engineering Management and Systems Engineering](http://emse.seas.gwu.edu/). He studies technological change with a focus on accelerating the transition to low-carbon technologies like electric vehicles and renewable energy technologies.
+
+[![GitHub](assets/3e274d1b99-github.png)](https://github.com/jhelvy?tab=repositories)

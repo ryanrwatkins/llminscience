@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+website:
+  title: "LLMs in Science"
+  site-url: "https://ryanrwatkins.github.io/llminscience/"
+  repo-url: "https://github.com/ryanrwatkins/llminscience"
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: overview.qmd
+        text: "Overview"
+      - href: resources.qmd
+        text: "Resource Hub"
+      - href: for-researchers.qmd
+        text: "For Researchers"
+      - href: for-reviewers.qmd
+        text: "For Reviewers"
+      - href: about.qmd
+        text: "About"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    link-external-newwindow: true
