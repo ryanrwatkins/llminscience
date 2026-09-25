@@ -2,8 +2,6 @@
 title: "Overview"
 ---
 
-> Recovered historical content from the Internet Archive. Links and advice reflect the archived site.
-
 - [LLMs & genAI](overview.qmd#section-llms)
 - [Potential Uses of LLMs](overview.qmd#section-potential-uses-of-llms)
 - [FAQ](overview.qmd#section-faq)
