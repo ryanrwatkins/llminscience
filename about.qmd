@@ -2,8 +2,6 @@
 title: "About"
 ---
 
-> Recovered historical content from the Internet Archive. Links and advice reflect the archived site.
-
 - [Contact Us](about.qmd#section-contact-us)
 - [Who We Are](about.qmd#section-who-we-are)
 

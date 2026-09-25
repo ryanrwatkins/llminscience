@@ -2,8 +2,6 @@
 title: "For Reviewers"
 ---
 
-> Recovered historical content from the Internet Archive. Links and advice reflect the archived site.
-
 In this sections are guides for how academic peer-reviewers (when presented with an article that uses LLMs in the workflow) can assess the appropriateness and thoroughness of the LLM methods applied.
 
 - [Introduction For Reviewers](for-reviewers.qmd#section-introduction-for-reviewers)

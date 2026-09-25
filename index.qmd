@@ -2,8 +2,6 @@
 title: "LLMs in Science"
 ---
 
-> Recovered historical content from the Internet Archive. Links and advice reflect the archived site.
-
 Welcome to the hub for researchers interested in exploring the evolving applications of Large Language Models (LLMs) and Generative AI (genAI) as tools in their scientific investigations. Whether you’re brainstorming research designs, delving into sentiment analysis, coding data, combining datasets, or tackling other research tasks, LLMs offer unparalleled capabilities that can revolutionize your research workflow.
 
 Our website offers resources, carefully curated to provide a comprehensive guide for researchers interested in incorporating LLMs into their work. We are collecting a wealth of examples of research articles that have utilized LLMs in their methods, showcasing the wide-ranging applications across diverse fields of study. From social sciences to natural sciences, from humanities to health sciences, LLMs and genAI are making waves in research domains all over the world.
