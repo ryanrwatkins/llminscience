@@ -12,10 +12,6 @@ LLMs stand for Large Language Models. They are a type of generative artificial i
 
 LLMs are capable of various natural language processing (NLP) tasks, including language generation, text completion, text classification, sentiment analysis, and more. They can be used in a wide range of applications, including scientific research, content generation, language translation, question answering, and chatbots, among others.
 
-Resources for staying current on advancement in LLMs include:
-
-<https://github.com/Hannibal046/Awesome-LLM>
-
 ## Potential Uses {#section-potential-uses-of-llms}
 
 This is a running list of potential uses for LLMs as instruments in scientific research workflows. All of these have been not been done as of yet, but many have and others have been preposed.
