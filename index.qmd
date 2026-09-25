@@ -20,5 +20,3 @@ If you are eager to explore the potential of LLMs in your research, our website 
 One of the unique features of our website is that we offer guidelines for reviewing submitted journal articles that utilize LLMs and/or genAi in their methods. By supporting peer review, we aim to contribute to the advancement of LLM-driven research and facilitate the creation of positive norms in the transparent use of LLMs and genAI.
 
 *Note: Graphic based on [Ce](https://www.cos.io/about)[nter for Open Science](https://www.cos.io/about)*
-
-[Archived source](https://web.archive.org/web/20250321002447/https://llminscience.com/)

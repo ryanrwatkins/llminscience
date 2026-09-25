@@ -89,15 +89,11 @@ def render_row(row: dict[str, str]) -> str:
         if row["date_recorded"]
         else "Not recorded"
     )
-    sources = " ".join(
-        f'<a href="{html.escape(url, quote=True)}">Archived source {i}</a>'
-        for i, url in enumerate(values(row["source_urls"]), 1)
-    )
     return f"""<tr class="resource-row" id="{escaped["id"]}" {attributes}
  data-title="{escaped["title"]}" data-date="{escaped["date_recorded"]}">
 <td><strong>{title}</strong>
-<details><summary>Description and source</summary><p>{escaped["description"] or "No description recorded."}</p>
-<p>Open science: {escaped["open_science"] or "Not recorded"}</p><p>{sources}</p></details></td>
+<details><summary>Details</summary><p>{escaped["description"] or "No description recorded."}</p>
+<p>Open science: {escaped["open_science"] or "Not recorded"}</p></details></td>
 <td>{escaped["resource_type"] or "Not recorded"}</td>
 <td>{escaped["discipline"] or "Not recorded"}<br><small>LLM use: {escaped["llm_use"] or "Not recorded"}</small></td>
 <td>{recorded}</td></tr>"""
