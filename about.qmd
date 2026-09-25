@@ -7,8 +7,6 @@ title: "About"
 - [Contact Us](about.qmd#section-contact-us)
 - [Who We Are](about.qmd#section-who-we-are)
 
-[Archived source](http://web.archive.org/web/20250723194311/https://llminscience.com/about/)
-
 ## Who We Are {#section-who-we-are}
 
 ### [Ryan Watkins](https://ryanrwatkins.com)
@@ -25,12 +23,8 @@ John is a researcher, engineer, choice modeler,  developer, musician, swing da
 
 [![GitHub](assets/3e274d1b99-github.png)](https://github.com/jhelvy?tab=repositories)
 
-[Archived source](http://web.archive.org/web/20250322100026/https://llminscience.com/about/who-we-are/)
-
 ## Contact Us {#section-contact-us}
 
 If you have ideas or suggestions, please contact us using the form below.
 
 Notice: JavaScript is required for this content.
-
-[Archived source](http://web.archive.org/web/20250723194417/https://llminscience.com/about/contact-us/)

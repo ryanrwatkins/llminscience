@@ -14,8 +14,6 @@ In this sections are guides for how academic peer-reviewers (when presented with
 - [Fine Tuning](for-reviewers.qmd#section-language-models)
 - [LLM Agents](for-reviewers.qmd#section-llm-agents)
 
-[Archived source](http://web.archive.org/web/20250425062745/https://llminscience.com/for-reviewers/)
-
 ## Introduction {#section-introduction-for-reviewers}
 
 Reviewers of manuscripts by researchers who have used LLMs in their workflows should keep the following considerations in mind:
@@ -34,8 +32,6 @@ Resources on LLM use by peer reviewers:
 
 <https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-023-00133-5>
 
-[Archived source](http://web.archive.org/web/20240521204009/https://llminscience.com/for-reviewers/introduction-for-reviewers/)
-
 ## Context {#section-context}
 
 As a starting place, here are initial recommendations of questions to be asked when reviewing research in which an LLM was used as part of their scientific research workflow.
@@ -46,8 +42,6 @@ As a starting place, here are initial recommendations of questions to be asked w
 
 Recommend Additions/Subtractions/Edits
 Citable Article on LLM Norms and Review Criteria
-
-[Archived source](http://web.archive.org/web/20250218191544/https://llminscience.com/for-reviewers/context/)
 
 ## Prompts {#section-prompts}
 
@@ -69,8 +63,6 @@ As a starting place, here are initial recommendations of questions to be asked w
 Recommend Additions/Subtractions/Edits
 Citable Article on LLM Norms and Review Criteria
 
-[Archived source](http://web.archive.org/web/20240419121549/https://llminscience.com/for-reviewers/prompts/)
-
 ## Embeddings {#section-embeddings}
 
 As a starting place, here are initial recommendations of questions to be asked when reviewing research in which an LLM was used as part of their scientific research workflow.
@@ -88,8 +80,6 @@ As a starting place, here are initial recommendations of questions to be asked w
 
 Recommend Additions/Subtractions/Edits
 Citable Article on LLM Norms and Review Criteria
-
-[Archived source](http://web.archive.org/web/20240419125235/https://llminscience.com/for-reviewers/embeddings/)
 
 ## Fine Tuning {#section-language-models}
 
@@ -112,8 +102,6 @@ As a starting place, here are initial recommendations of questions to be asked w
 Recommend Additions/Subtractions/Edits
 Citable Article on LLM Norms and Review Criteria
 
-[Archived source](http://web.archive.org/web/20250322093008/https://llminscience.com/for-reviewers/language-models/)
-
 ## Agents {#section-llm-agents}
 
 As a starting place, here are initial recommendations of questions to be asked when reviewing research in which an LLM was used as part of their scientific research workflow.
@@ -124,8 +112,6 @@ As a starting place, here are initial recommendations of questions to be asked w
 
 Recommend Additions/Subtractions/Edits
 Citable Article on LLM Norms and Review Criteria
-
-[Archived source](http://web.archive.org/web/20250322084907/https://llminscience.com/for-reviewers/llm-agents/)
 
 ## Ethics {#section-ethics}
 
@@ -142,5 +128,3 @@ As a starting place, here are initial recommendations of questions to be asked w
 
 Recommend Additions/Subtractions/Edits
 Citable Article on LLM Norms and Review Criteria
-
-[Archived source](http://web.archive.org/web/20250322095816/https://llminscience.com/for-reviewers/ethics/)

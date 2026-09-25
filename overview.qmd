@@ -8,8 +8,6 @@ title: "Overview"
 - [Potential Uses of LLMs](overview.qmd#section-potential-uses-of-llms)
 - [FAQ](overview.qmd#section-faq)
 
-[Archived source](https://web.archive.org/web/20250322092545/https://llminscience.com/overview/)
-
 ## LLMs & genAI {#section-llms}
 
 LLMs stand for Large Language Models. They are a type of generative artificial intelligence (genAI) model that uses deep learning techniques to process and generate human-like text. LLMs are trained on massive amounts of data, such as text from the internet or other large text corpora, and can learn to understand and generate text in a wide range of styles and domains.
@@ -19,8 +17,6 @@ LLMs are capable of various natural language processing (NLP) tasks, including l
 Resources for staying current on advancement in LLMs include:
 
 <https://github.com/Hannibal046/Awesome-LLM>
-
-[Archived source](https://web.archive.org/web/20250218180925/https://llminscience.com/overview/llms/)
 
 ## Potential Uses {#section-potential-uses-of-llms}
 
@@ -74,8 +70,6 @@ Recommend Additions/Subtractions/Edits
 
 Based in part on: <https://www.nber.org/papers/w30957>
 
-[Archived source](https://web.archive.org/web/20250425053629/https://llminscience.com/overview/potential-uses-of-llms/)
-
 ## FAQ {#section-faq}
 
 **Q: What is the benefit of using LLMs in scientific research?**A: LLMs can provide a wide range of benefits in scientific research. They can assist in generating hypotheses, analyzing data, summarizing research articles, and aiding in literature review. LLMs can also help with natural language processing tasks, such as text classification, sentiment analysis, and entity recognition, which can be valuable for scientific research in fields like biology, chemistry, physics, and medicine.
@@ -98,5 +92,3 @@ Based in part on: <https://www.nber.org/papers/w30957>
 - Following institutional or regulatory guidelines for the use of LLMs in research.
 
 **Q: Can I share or distribute LLM-generated content in my research publications?**A: It is important to be mindful of the terms and conditions of the specific LLM you are using, as some models may have restrictions on sharing or distributing content. Additionally, when using LLM-generated content in research publications, it is important to give proper credit and citation to the model used. Be sure to follow the guidelines and regulations of your institution or publisher regarding the use of LLM-generated content in research publications.
-
-[Archived source](https://web.archive.org/web/20250723194245/https://llminscience.com/overview/faq/)
